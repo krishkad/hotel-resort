@@ -6,7 +6,7 @@ export const SpaSection = () => (
     <div className="luxury-container flex flex-col md:flex-row items-center gap-12 animate-fade-in">
       <div className="md:w-1/2 mb-8 md:mb-0">
         <img
-          src="https://images.unsplash.com/photo-1611920630418-f587fdc3bf94?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1585821569272-21e611bb532f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Luxury Spa"
           className="rounded-xl shadow-lg w-full object-cover h-72 md:h-96"
         />
