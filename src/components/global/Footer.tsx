@@ -9,6 +9,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -61,34 +62,34 @@ export const Footer = () => {
               comfort.
             </p>
             <div className="flex space-x-4">
-              <a
+              <Link
                 href="#"
                 className="text-white/70 hover:text-[var(--gold)] transition-colors"
               >
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-white/70 hover:text-[var(--gold)] transition-colors"
               >
                 <Instagram size={20} />
                 <span className="sr-only">Instagram</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-white/70 hover:text-[var(--gold)] transition-colors"
               >
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-white/70 hover:text-[var(--gold)] transition-colors"
               >
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -97,44 +98,44 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors fancy-underline"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/rooms"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors fancy-underline"
                 >
                   Rooms & Suites
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/dining"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors fancy-underline"
                 >
                   Dining
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/wellness"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors fancy-underline"
                 >
                   Spa & Wellness
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/offers"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors fancy-underline"
                 >
                   Special Offers
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -157,24 +158,24 @@ export const Footer = () => {
                   size={20}
                   className="text-[var(--gold)] mr-3 flex-shrink-0"
                 />
-                <a
+                <Link
                   href="tel:+12345678900"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors"
                 >
                   +1 (234) 567-8900
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <Mail
                   size={20}
                   className="text-[var(--gold)] mr-3 flex-shrink-0"
                 />
-                <a
+                <Link
                   href="mailto:info@gildedhaven.com"
                   className="text-white/70 hover:text-[var(--gold)] transition-colors"
                 >
                   info@gildedhaven.com
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -216,24 +217,24 @@ export const Footer = () => {
             reserved.
           </p>
           <div className="flex space-x-6">
-            <a
+            <Link
               href="#"
               className="text-white/50 hover:text-[var(--gold)] text-sm transition-colors"
             >
               Privacy Policy
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-white/50 hover:text-[var(--gold)] text-sm transition-colors"
             >
               Terms of Service
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-white/50 hover:text-[var(--gold)] text-sm transition-colors"
             >
               Sitemap
-            </a>
+            </Link>
           </div>
         </div>
       </div>

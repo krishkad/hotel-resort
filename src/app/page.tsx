@@ -10,7 +10,6 @@ import { Restaurant } from "@/components/global/Restaurant";
 import { RoomCategories } from "@/components/global/RoomCategories";
 import { SpaSection } from "@/components/global/Spa";
 import { Testimonials } from "@/components/global/Testimonials";
-import Image from "next/image";
 
 export default function Home() {
   return (

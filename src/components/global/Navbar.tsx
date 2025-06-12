@@ -33,7 +33,7 @@ export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const isMobile = useIsMobile();
+  // const isMobile = useIsMobile();
 
   useEffect(() => {
     const handleScroll = () => {

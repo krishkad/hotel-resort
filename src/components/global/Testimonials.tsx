@@ -117,7 +117,7 @@ export const Testimonials = () => {
                   </div>
 
                   <blockquote className="text-xl md:text-2xl italic font-light mb-6">
-                    "{testimonial.quote}"
+                    &quot;{testimonial.quote}&quot;
                   </blockquote>
 
                   <p className="text-[var(--gold)] font-playfair text-lg font-semibold">{testimonial.name}</p>
