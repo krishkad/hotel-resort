@@ -11,7 +11,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
