@@ -29,7 +29,7 @@ export const Hero = () => {
             for the most discerning travelers.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
-            <Button className="bg-[var(--gold)] hover:bg-[var(--gold-dark)] text-navy font-medium text-base px-8 py-6">
+            <Button className="bg-[var(--gold)] hover:bg-[var(--gold-dark)] text-white font-medium text-base px-8 py-6">
               Book Now
             </Button>
             <Button className="bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 border border-white/40 text-lg px-8 py-6">

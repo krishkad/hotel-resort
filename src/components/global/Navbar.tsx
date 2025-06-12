@@ -107,7 +107,7 @@ export const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="bg-[var(--gold)] hover:bg-[var(--gold-dark)] text-navy font-medium ml-4">
+          <Button className="bg-[var(--gold)] hover:bg-[var(--gold-dark)] text-white font-medium ml-4">
             Book Now
           </Button>
         </div>
