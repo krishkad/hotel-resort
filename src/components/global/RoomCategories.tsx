@@ -9,30 +9,31 @@ const rooms = [
     name: "Deluxe Suite",
     description: "Spacious elegance with city views and premium amenities for the discerning traveler.",
     image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    price: "$450",
+    price: "₹14,500",
   },
   {
     id: 2,
     name: "Royal Penthouse",
     description: "The epitome of luxury with panoramic views, private terrace and personalized butler service.",
     image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    price: "$1,250",
+    price: "₹20,000",
   },
   {
     id: 3,
     name: "Executive Room",
     description: "Refined comfort with elegant furnishings and premium bedding for business and leisure travelers.",
     image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80",
-    price: "$350",
+    price: "₹10,500",
   },
   {
     id: 4,
     name: "Family Suite",
     description: "Spacious accommodation with connecting rooms, perfect for creating cherished family memories.",
     image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
-    price: "$550",
+    price: "₹16,000",
   },
 ];
+
 
 export const RoomCategories = () => {
   const [hoveredRoom, setHoveredRoom] = useState<number | null>(null);

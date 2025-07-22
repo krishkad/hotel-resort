@@ -77,7 +77,7 @@ export const Navbar = () => {
                   "border-b-2 border-transparent group-hover:border-gold transition-all duration-300"
                 )}
               >
-                Paramount Riverfront
+                GILDED HAVEN
               </h1>
               <h2
                 className={cn(
@@ -86,7 +86,7 @@ export const Navbar = () => {
                   "transition-all duration-300 group-hover:text-[var(--gold)] "
                 )}
               >
-                Resort, Spa, Karjat
+                Hotel, Resort, Lonavla
               </h2>
             </div>
           </div>
